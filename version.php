@@ -28,3 +28,6 @@ defined('MOODLE_INTERNAL') || die();
 $plugin->version   = 2018051402;        // The current plugin version (Date: YYYYMMDDXX)
 $plugin->requires  = 2018050800;        // Requires this Moodle version
 $plugin->component = 'block_switchrole'; // Full name of the plugin (used for diagnostics).
+$plugin->cron = 1;
+$plugin->release = '1.0';
+$plugin->maturity = MATURITY_ALPHA;
