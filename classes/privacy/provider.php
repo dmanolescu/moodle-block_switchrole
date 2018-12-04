@@ -18,7 +18,7 @@
  * Privacy Subsystem implementation for block_switchrole.
  *
  * @package    block_switchrole
- * @copyright  1999 onwards Martin Dougiamas (http://dougiamas.com)
+ * @copyright  2018 Dorel Manolescu
  * @author     Dorel Manolescu <manolescu.dorel@gmail.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
@@ -29,7 +29,7 @@ defined('MOODLE_INTERNAL') || die();
 
 /**
  * Privacy Subsystem for block_switchrole implementing null_provider.
- *
+ * @copyright  2018 Dorel Manolescu <manolescu.dorel@gmail.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 class provider implements \core_privacy\local\metadata\null_provider {

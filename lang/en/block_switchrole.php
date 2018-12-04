@@ -18,7 +18,7 @@
  * Language strings
  *
  * @package    block_switchrole
- * @copyright  1999 onwards Martin Dougiamas (http://dougiamas.com)
+ * @copyright  2018 Dorel Manolescu
  * @author     Dorel Manolescu <manolescu.dorel@gmail.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */

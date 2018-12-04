@@ -18,7 +18,7 @@
  * Switch role block.
  *
  * @package    block_switchrole
- * @copyright  1999 onwards Martin Dougiamas (http://dougiamas.com)
+ * @copyright  2018 Dorel Manolescu
  * @author     Dorel Manolescu <manolescu.dorel@gmail.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
@@ -27,18 +27,30 @@ defined('MOODLE_INTERNAL') || die();
 
 class block_switchrole extends block_list {
 
+    /**
+     * Block init function.
+     */
     public function init() {
         $this->title = get_string('blockname', 'block_switchrole');
     }
 
+    /**
+     * @return array
+     */
     public function applicable_formats() {
         return array('site' => true, 'course' => true, 'my' => false);
     }
 
+    /**
+     * @return bool
+     */
     public function instance_allow_multiple() {
-        return true;
+        return false;
     }
 
+    /**
+     * @return stdClass|stdObject
+     */
     public function get_content() {
         global $USER, $OUTPUT, $DB;
 

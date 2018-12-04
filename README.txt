@@ -14,6 +14,8 @@ ABOUT
 
 In the latest versions of moodle the switch role feature/link has been moved in the user menu of the theme.
 In case you still want it in the blocks area or your theme doesn't have implemented the user menu or you have moodle embedded inside another application this block may help.
+Block redirects to the standard switch role page.
+
 
 SETTINGS
 
